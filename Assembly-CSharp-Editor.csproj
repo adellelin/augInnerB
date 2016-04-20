@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{C59B483A-3BDC-1F2A-4B3E-16E8E593DCCA}</ProjectGuid>
+	<ProjectGuid>{E96020F3-2548-1E0A-B81F-C79551325681}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -71,8 +71,11 @@
      <None Include="Assets\StreamingAssets\QCAR\unity 1.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\StreamingAssets\QCAR\jewel 2.xml" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/Adelle/Documents/Git/augInnerB/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
- <HintPath>/Users/Adelle/Documents/Git/VuforiaTest/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+ <HintPath>/Users/Adelle/Documents/Git/augInnerB/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -90,10 +93,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions.Editor">
- <HintPath>/Users/Adelle/Documents/Git/VuforiaTest/Assets/Vuforia/Editor/Scripts/Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>/Users/Adelle/Documents/Git/augInnerB/Assets/Vuforia/Editor/Scripts/Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>/Users/Adelle/Documents/Git/VuforiaTest/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/Adelle/Documents/Git/augInnerB/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -128,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FDEF7166-8555-CFC0-8D70-5F2FFB6B3F92}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{08AE59BB-01AC-7EEE-703A-4180598D414E}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
