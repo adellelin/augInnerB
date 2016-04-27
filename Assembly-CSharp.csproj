@@ -45,6 +45,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Found_two.cs" />
+     <Compile Include="Assets\Scripts\ItemRotator.cs" />
+     <Compile Include="Assets\Scripts\VBSoccerballEventHandler.cs" />
+     <Compile Include="Assets\Scripts\VirtualButtonEventHandler.cs" />
+     <Compile Include="Assets\Scripts\selfDestruct.cs" />
+     <Compile Include="Assets\Scripts\spaceBarDest.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -83,29 +89,19 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
      <Compile Include="Assets\particleDestroy.cs" />
-     <Compile Include="Assets\scripts\ItemRotator.cs" />
-     <None Include="Assets\StreamingAssets\QCAR\jewel.xml" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 6.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\unity.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\jewel 1.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\jewel.xml" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 4.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 2.xml" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 5.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 3.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 1.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\jewel 2.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

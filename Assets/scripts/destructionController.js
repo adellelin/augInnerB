@@ -4,7 +4,7 @@ function Start () {
 
 }
 
-public var chainPrefab: GameObject;
+public var remainsPieces: GameObject;
 
 function Update()
  {
@@ -12,7 +12,7 @@ function Update()
  
      if(Input.GetKeyDown("space"))
      {
-     	 Instantiate(chainPrefab, transform.position, transform.rotation); 
-         Destroy(gameObject);
+     	 Instantiate(remainsPieces, transform.position, transform.rotation); 
+         gameObject.SetActive(false);
      }
  }

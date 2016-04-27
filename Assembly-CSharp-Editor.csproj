@@ -49,28 +49,19 @@
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\Unzipper\SharpZipLibUnzipper.cs" />
-     <None Include="Assets\StreamingAssets\QCAR\jewel.xml" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 6.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\unity.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\jewel 1.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\jewel.xml" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 4.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 2.xml" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 5.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 3.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\unity 1.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\jewel 2.xml" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>/Users/Adelle/Documents/Git/augInnerB/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>

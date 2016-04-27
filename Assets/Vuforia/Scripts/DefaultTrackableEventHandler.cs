@@ -15,12 +15,14 @@ namespace Vuforia
     public class DefaultTrackableEventHandler : MonoBehaviour,
                                                 ITrackableEventHandler
     {
-		public Animation m_animation; // added in 
 
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
     
+		public static bool carolineFound = false;
+		public static bool cattFound = false;
+
         #endregion // PRIVATE_MEMBER_VARIABLES
 
 
@@ -34,7 +36,12 @@ namespace Vuforia
             {
                 mTrackableBehaviour.RegisterTrackableEventHandler(this);
             }
+		
         }
+
+		void Update() {
+	
+		}
 
         #endregion // UNTIY_MONOBEHAVIOUR_METHODS
 
@@ -95,6 +102,28 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+
+			if (mTrackableBehaviour.TrackableName == "jewel_caroline") {
+				carolineFound = true;
+
+
+			
+			}
+			if (mTrackableBehaviour.TrackableName == "jewel_catt2") {
+				cattFound = true;
+			}
+
+			/*
+			if (carolineFound == true && cattFound == true) {
+				Debug.Log("hi");
+				/*
+				//bool found1 = true;
+				Debug.Log ("hihihihihi");
+				cageWings = transform.FindChild("cageWings").gameObject;
+				Animator animator = cageWings.GetComponent<Animator>() as Animator;
+				animator.SetTrigger("found2");
+				*/
+			//}
         }
 
 
@@ -116,6 +145,14 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+
+			if (mTrackableBehaviour.TrackableName == "jewel_catt2") {
+				cattFound = false;
+			}
+
+			if (mTrackableBehaviour.TrackableName == "jewel_caroline") {
+				carolineFound = false;
+			}
         }
 
         #endregion // PRIVATE_METHODS
