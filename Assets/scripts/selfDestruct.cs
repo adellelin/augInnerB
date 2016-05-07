@@ -11,7 +11,7 @@ public class selfDestruct : MonoBehaviour {
 		yield return new WaitForSeconds(5);
 		//Destroy (gameObject);
 		gameObject.SetActive (false);
-		GameObject.FindObjectOfType<Found_two> ().GetComponent<Found_two> ().instantiated = false;
+		//GameObject.FindObjectOfType<Found_two> ().GetComponent<Found_two> ().instantiated = false;
 	}
 	
 

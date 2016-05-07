@@ -59,7 +59,7 @@ public class VirtualButtonEventHandler : MonoBehaviour,
 
         // Get handle to the teapot object
         mTeapot = transform.FindChild("chainmail").gameObject;
-		mChainmail = transform.FindChild("chainmail").gameObject;
+		mChainmail = transform.FindChild("chainmail_mouth").gameObject;
 
         // The list of active materials
         mActiveMaterials = new List<Material>();

@@ -106,8 +106,6 @@ namespace Vuforia
 			if (mTrackableBehaviour.TrackableName == "jewel_caroline") {
 				carolineFound = true;
 
-
-			
 			}
 			if (mTrackableBehaviour.TrackableName == "jewel_catt2") {
 				cattFound = true;

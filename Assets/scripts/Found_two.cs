@@ -10,17 +10,15 @@ public class Found_two : MonoBehaviour {
 	private GameObject mChainmail;
 	public GameObject remainsPieces;
 	public bool instantiated = false;
-
-
-
+	
 	// Use this for initialization
 	void Start () {
 		//animator = cageWings.GetComponent<Animator>() as Animator;
 		Debug.Log ("testingStart");
 		//animator.Play("FancyArmature|Action");
 		//animator.SetBool ("found2", false);
-		mChainmail = transform.FindChild ("chainmail").gameObject;
-	
+		mChainmail = transform.FindChild ("chainmail_mouth").gameObject;
+			
 	}
 	
 	// Update is called once per frame
@@ -39,7 +37,9 @@ public class Found_two : MonoBehaviour {
 
 			//animator.SetBool("Found2", true);
 
-				//animator.SetTrigger("found2");
+			//animator.SetTrigger("found2");
+		} else {
+			instantiated = false;
 		}
 	}
 
