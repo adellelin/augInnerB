@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="J_caroline5" size="50.000000 50.351616" >
+        <VirtualButton name="red" rectangle="50 50 50 50" enabled="true" />
+        </ImageTarget>
+    <ImageTarget name="jewel_catt2" size="100.000000 100.738007" />
+    <ImageTarget name="jewel_caroline" size="100.000000 100.738007">
+        <VirtualButton name="red" rectangle="-15 -10 15 -25" enabled="true" />
+        <VirtualButton name="blue" rectangle="50 50 50 50" enabled="true" />
+    </ImageTarget>
+  </Tracking>
+</QCARConfig>
